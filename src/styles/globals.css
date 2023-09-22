@@ -194,6 +194,7 @@ em {
   width: 100%;
   height: 80%;
   display: flex;
+  color: gray;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -204,6 +205,7 @@ em {
 
 .no-result > div > .MuiSvgIcon-root:nth-child(1) {
   transform: scale(3);
+  color: gray;
 }
 
 .cancel-root {
@@ -211,14 +213,22 @@ em {
   border-radius: 50%;
   width: 25px;
   height: 25px;
+  color: gray;
 }
 
 .no-result > div {
   transform: scale(1.8);
+  color: gray;
 }
 
 .no-result > div > div {
   transform: translate(-60%, -90%);
+  color: gray;
+}
+
+.no-result > h2{
+  color:gray;
+  font-size: 15px;
 }
 
 .animate {
